@@ -23,8 +23,7 @@ requirements:
     - async-timeout
     - attrs >=19.2.0
     - python >=3.6
-    - python-socks >=1.0.1
-
+    - python-socks >=2.4.3,<3.0.0
 
 test:
   imports:
