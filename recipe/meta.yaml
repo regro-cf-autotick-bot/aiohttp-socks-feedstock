@@ -1,5 +1,5 @@
 {% set name = "aiohttp-socks" %}
-{% set version = "0.8.4" %}
+{% set version = "0.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aiohttp_socks-{{ version }}.tar.gz
-  sha256: 6b611d4ce838e9cf2c2fed5e0dba447cc84824a6cba95dc5747606201da46cb4
+  sha256: 5b320d1bb156fc56d0b31f9de8d5b9b0affbcf1f2df9b8172334dc10e63e4e2f
 
 build:
   noarch: python
